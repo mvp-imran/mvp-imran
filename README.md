@@ -1,7 +1,7 @@
 <div align="center">
 
 <picture>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1e,40:0d2137,100:0a1628&height=220&section=header&text=Imran&fontSize=80&fontColor=4da6ff&animation=fadeIn&fontAlignY=40&desc=Principal%20Cloud%20Architect%20%E2%80%A2%20CTO%20%E2%80%A2%20AI%20%26%20FinOps%20Leader&descAlignY=62&descColor=7ab8f5&descSize=18" width="100%"/>
+  <img src="./banner.svg" width="100%" alt="Imran — Principal Cloud Architect · CTO · AI & FinOps Leader"/>
 </picture>
 
 <br/>
@@ -223,7 +223,7 @@ A studio for developers and founders who move at startup speed. Cloud architectu
 <div align="center">
 
 <picture>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,100:0a0f1e&height=140&section=footer&text=Warriors%20Ship.%20Warriors%20Build.%20Warriors%20Grow.&fontSize=16&fontColor=4da6ff&fontAlignY=55" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,100:0a0f1e&height=120&section=footer" width="100%"/>
 </picture>
 
 <br/>
