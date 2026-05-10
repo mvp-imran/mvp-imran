@@ -101,13 +101,23 @@ I design and deliver **enterprise-grade cloud platforms** across Azure, AWS, and
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![OPA](https://img.shields.io/badge/Policy--as--Code_(OPA)-7D3F98?style=flat-square)
 
-### 🌐 Identity & Networking
-![Entra ID](https://img.shields.io/badge/Azure_Entra_ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Intune](https://img.shields.io/badge/Microsoft_Intune-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+### 🪪 Identity & Access Management
+![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AD Architecture](https://img.shields.io/badge/AD_Architecture_%26_Design-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AD Migration](https://img.shields.io/badge/AD_Migration_%26_Consolidation-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Entra ID](https://img.shields.io/badge/Azure_Entra_ID-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Hybrid Identity](https://img.shields.io/badge/Hybrid_Identity_%26_AAD_Connect-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Microsoft Intune](https://img.shields.io/badge/Microsoft_Intune_MDM%2FMAM-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Conditional Access](https://img.shields.io/badge/Conditional_Access-1e3a5f?style=flat-square)
-![PIM/MFA](https://img.shields.io/badge/PIM%2FMFA-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![PIM/MFA](https://img.shields.io/badge/PIM_%2F_MFA-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC_%26_Privileged_Access-1e3a5f?style=flat-square)
+
+### 🌐 Networking & Security Infrastructure
 ![NSX-T](https://img.shields.io/badge/NSX--T-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Azure Firewall](https://img.shields.io/badge/Azure_Firewall-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![VPN/ExpressRoute](https://img.shields.io/badge/VPN_%2F_ExpressRoute-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Front Door](https://img.shields.io/badge/Azure_Front_Door_%26_WAF-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![SD-WAN](https://img.shields.io/badge/SD--WAN-607078?style=flat-square)
 
 ### 📊 Observability & SIEM
 ![Azure Monitor](https://img.shields.io/badge/Azure_Monitor-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
@@ -151,13 +161,13 @@ I design and deliver **enterprise-grade cloud platforms** across Azure, AWS, and
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [CloudFinOpsbyAI](https://github.com/mvp-imran/CloudFinOpsbyAI)
+### 🤖 [AIAgent-SoftwareAgency](https://github.com/mvp-imran/AIAgent-SoftwareAgency)
 **AI Software Agency — 150+ Specialist Agents**
 
 Multi-agent AI platform built on Claude. Covers Cloud Architecture, FinOps, Security, DevSecOps, and more — one command activates any specialist.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mvp-imran/CloudFinOpsbyAI/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mvp-imran/AIAgent-SoftwareAgency/main/install.sh | bash
 ```
 
 ![Claude AI](https://img.shields.io/badge/Claude_AI-CC785C?style=flat-square&logo=anthropic&logoColor=white)
@@ -198,6 +208,26 @@ A studio for developers and founders who move at startup speed. Cloud architectu
 | 🚀 Technical Co-founder | AI & Cloud-native ventures | 🔍 **Selective** |
 
 **→ Reach me:** [devwarriors.com](http://www.devwarriors.com)
+
+---
+
+## 🤝🏢 M&A Technology Advisory
+
+> Specialist expertise in **Mergers, Acquisitions & Divestitures** — delivering end-to-end technology due diligence, integration, and separation strategy for enterprises and PE-backed transactions.
+
+| Capability | Detail |
+|---|---|
+| 🔍 Tech Due Diligence | Cloud infrastructure audit, security posture, technical debt assessment pre-acquisition |
+| 🔗 IT Integration | Post-merger Active Directory consolidation, cloud tenant mergers, identity unification |
+| ✂️ Carve-out & Separation | Standalone IT infrastructure design, data segregation, network separation |
+| ☁️ Cloud Estate Consolidation | Multi-cloud merging, Landing Zone redesign, subscription restructuring |
+| 🔒 Security & Compliance Alignment | Unified Zero Trust posture, compliance harmonisation (HIPAA, SOC 2, GDPR) |
+| 💰 FinOps Rationalisation | License optimisation, cost baseline reset, Reserved Instance strategy post-merger |
+| 🤖 AI & Data Platform Integration | Unified MLOps pipelines, data lake consolidation, GenAI platform harmonisation |
+
+> Past engagements span **Healthcare, Financial Services, Insurance (IRDAI), and SaaS** — working directly with C-suite and PE sponsors.
+
+**→ Enquire:** [devwarriors.com](http://www.devwarriors.com)
 
 ---
 
