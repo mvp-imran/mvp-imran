@@ -1,68 +1,113 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Imran — Principal Cloud Architect avatar</title>
-  <desc>Professional avatar frame for Imran, CTO and Founder of Dev Warriors</desc>
+<svg width="460" height="460" viewBox="0 0 460 460" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Imran — CTO &amp; Principal Cloud Architect avatar frame</title>
+  <desc>Professional avatar frame for Imran, Founder of Dev Warriors</desc>
   <defs>
-    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="ring1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#4da6ff"/>
-      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#4da6ff"/>
     </linearGradient>
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060d1a"/>
-      <stop offset="100%" stop-color="#0d1f38"/>
+    <linearGradient id="bgav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071325"/>
+      <stop offset="100%" stop-color="#0b1e3a"/>
     </linearGradient>
-    <clipPath id="circle-clip">
-      <circle cx="200" cy="200" r="150"/>
-    </clipPath>
+    <linearGradient id="platebg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#071a38"/>
+      <stop offset="100%" stop-color="#0d2444"/>
+    </linearGradient>
+    <clipPath id="avclip"><circle cx="230" cy="215" r="148"/></clipPath>
   </defs>
 
   <!-- Background -->
-  <rect width="400" height="400" fill="url(#bg-grad)"/>
+  <rect width="460" height="460" fill="url(#bgav)" rx="16"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#0f2540" stroke-width="0.5" opacity="0.4">
+    <line x1="0" y1="115" x2="460" y2="115"/>
+    <line x1="0" y1="230" x2="460" y2="230"/>
+    <line x1="0" y1="345" x2="460" y2="345"/>
+    <line x1="115" y1="0" x2="115" y2="460"/>
+    <line x1="230" y1="0" x2="230" y2="460"/>
+    <line x1="345" y1="0" x2="345" y2="460"/>
+  </g>
 
   <!-- Outer decorative rings -->
-  <circle cx="200" cy="200" r="192" fill="none" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
-  <circle cx="200" cy="200" r="182" fill="none" stroke="#4da6ff" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="230" cy="215" r="216" fill="none" stroke="#0f2540" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="230" cy="215" r="205" fill="none" stroke="#4da6ff" stroke-width="0.4" opacity="0.15"/>
 
-  <!-- Rotating dashed ring -->
-  <circle cx="200" cy="200" r="172" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="8 6" opacity="0.5"/>
+  <!-- Dashed orbit ring -->
+  <circle cx="230" cy="215" r="196" fill="none" stroke="#1e3a5f" stroke-width="1.2" stroke-dasharray="7 8" opacity="0.55"/>
 
-  <!-- Dot markers at compass points on the dashed ring -->
-  <circle cx="200" cy="28" r="4" fill="#4da6ff" opacity="0.7"/>
-  <circle cx="372" cy="200" r="4" fill="#4da6ff" opacity="0.7"/>
-  <circle cx="200" cy="372" r="4" fill="#4da6ff" opacity="0.7"/>
-  <circle cx="28" cy="200" r="4" fill="#4da6ff" opacity="0.7"/>
-  <!-- Diagonal dots -->
-  <circle cx="321" cy="79" r="2.5" fill="#6366f1" opacity="0.5"/>
-  <circle cx="321" cy="321" r="2.5" fill="#6366f1" opacity="0.5"/>
-  <circle cx="79" cy="321" r="2.5" fill="#6366f1" opacity="0.5"/>
-  <circle cx="79" cy="79" r="2.5" fill="#6366f1" opacity="0.5"/>
+  <!-- Orbit dots -->
+  <circle cx="230" cy="19" r="5" fill="#4da6ff" opacity="0.7"/>
+  <circle cx="426" cy="215" r="5" fill="#4da6ff" opacity="0.7"/>
+  <circle cx="230" cy="411" r="5" fill="#4da6ff" opacity="0.7"/>
+  <circle cx="34" cy="215" r="5" fill="#4da6ff" opacity="0.7"/>
+  <!-- Diagonal orbit dots -->
+  <circle cx="368" cy="77" r="3.5" fill="#818cf8" opacity="0.55"/>
+  <circle cx="368" cy="353" r="3.5" fill="#818cf8" opacity="0.55"/>
+  <circle cx="92" cy="353" r="3.5" fill="#818cf8" opacity="0.55"/>
+  <circle cx="92" cy="77" r="3.5" fill="#818cf8" opacity="0.55"/>
 
-  <!-- Avatar background circle -->
-  <circle cx="200" cy="200" r="160" fill="#0a1628"/>
+  <!-- Avatar background fill -->
+  <circle cx="230" cy="215" r="162" fill="#071325"/>
 
-  <!-- Gradient ring (thick) -->
-  <circle cx="200" cy="200" r="158" fill="none" stroke="url(#ring-grad)" stroke-width="4"/>
-  <circle cx="200" cy="200" r="153" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- Main gradient ring -->
+  <circle cx="230" cy="215" r="162" fill="none" stroke="url(#ring1)" stroke-width="5"/>
+  <circle cx="230" cy="215" r="155" fill="none" stroke="#1e3a5f" stroke-width="1"/>
 
-  <!-- Profile photo placeholder (shows initials; replace with actual photo) -->
-  <circle cx="200" cy="200" r="148" fill="#0d1f38" clip-path="url(#circle-clip)"/>
+  <!-- Avatar photo area -->
+  <circle cx="230" cy="215" r="150" fill="#0b1e3a" clip-path="url(#avclip)"/>
 
-  <!-- Initials display -->
-  <text x="200" y="220" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="100" font-weight="800" fill="#4da6ff" opacity="0.9">I</text>
+  <!-- Large initial -->
+  <text x="230" y="248" text-anchor="middle"
+        font-family="'Segoe UI',system-ui,sans-serif"
+        font-size="130" font-weight="800"
+        fill="#4da6ff" opacity="0.88">I</text>
 
-  <!-- Bottom name plate -->
-  <rect x="110" y="312" width="180" height="36" rx="18" fill="#0a1e3d" stroke="#4da6ff" stroke-width="1.5"/>
-  <text x="200" y="335" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" font-weight="700" fill="#e6edf3" letter-spacing="2.5">IMRAN</text>
+  <!-- Sub-initial label -->
+  <text x="230" y="288" text-anchor="middle"
+        font-family="'Segoe UI',system-ui,sans-serif"
+        font-size="12" font-weight="600"
+        fill="#7ab8f5" letter-spacing="5" opacity="0.7">IMRAN</text>
 
-  <!-- CTO badge -->
-  <rect x="148" y="272" width="104" height="26" rx="13" fill="#060d1a" stroke="url(#ring-grad)" stroke-width="1.5"/>
-  <text x="200" y="289" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="600" fill="#4da6ff" letter-spacing="1.5">CTO · FOUNDER</text>
+  <!-- CTO badge pill -->
+  <rect x="156" y="334" width="148" height="32" rx="16"
+        fill="#060d1a" stroke="url(#ring1)" stroke-width="1.8"/>
+  <text x="230" y="354" text-anchor="middle"
+        font-family="'Segoe UI',system-ui,sans-serif"
+        font-size="12" font-weight="700"
+        fill="#4da6ff" letter-spacing="2">CTO · FOUNDER</text>
 
-  <!-- Corner tech marks -->
-  <g opacity="0.4" stroke="#4da6ff" stroke-width="1.5" fill="none">
-    <path d="M 30 45 L 30 30 L 45 30"/>
-    <path d="M 355 30 L 370 30 L 370 45"/>
-    <path d="M 30 355 L 30 370 L 45 370"/>
-    <path d="M 355 370 L 370 370 L 370 355"/>
+  <!-- Name plate -->
+  <rect x="118" y="378" width="224" height="38" rx="8"
+        fill="url(#platebg)" stroke="#1e4a80" stroke-width="1.2"/>
+  <text x="230" y="402" text-anchor="middle"
+        font-family="'Segoe UI',system-ui,sans-serif"
+        font-size="15" font-weight="800"
+        fill="#e6edf3" letter-spacing="4">IMRAN</text>
+
+  <!-- Dev Warriors tag -->
+  <text x="230" y="424" text-anchor="middle"
+        font-family="'Segoe UI',system-ui,sans-serif"
+        font-size="10" font-weight="500"
+        fill="#4da6ff" letter-spacing="1.5" opacity="0.7">⚔  DEV WARRIORS</text>
+
+  <!-- Corner tech bracket marks -->
+  <g stroke="#4da6ff" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M 18 36 L 18 18 L 36 18"/>
+    <path d="M 424 18 L 442 18 L 442 36"/>
+    <path d="M 18 424 L 18 442 L 36 442"/>
+    <path d="M 424 442 L 442 442 L 442 424"/>
   </g>
+
+  <!-- Top left accent dot cluster -->
+  <circle cx="40" cy="60" r="2" fill="#4da6ff" opacity="0.3"/>
+  <circle cx="52" cy="72" r="1.5" fill="#818cf8" opacity="0.3"/>
+  <circle cx="62" cy="58" r="1.5" fill="#4da6ff" opacity="0.25"/>
+
+  <!-- Bottom right accent dot cluster -->
+  <circle cx="420" cy="400" r="2" fill="#4da6ff" opacity="0.3"/>
+  <circle cx="408" cy="412" r="1.5" fill="#818cf8" opacity="0.3"/>
+  <circle cx="398" cy="400" r="1.5" fill="#4da6ff" opacity="0.25"/>
 </svg>
