@@ -38,7 +38,7 @@ I design and deliver **enterprise-grade cloud platforms** across Azure, AWS, and
 
 ---
 
-## 🛠️ Technical Expertise
+## 🛠️ Solution Areas
 
 ### ☁️ Multi-Cloud Infrastructure
 ![Azure](https://img.shields.io/badge/Azure-Expert-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
